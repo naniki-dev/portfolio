@@ -6,12 +6,25 @@
 }
 
 body {
-  background-color: ffffff;
+  background-color: #ffffff;
   color: #372c2a;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+}
+
+#projects,
+#about,
+#contact {
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  padding-top: 60px;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
@@ -54,6 +67,7 @@ body {
   padding: 0 24px;
 }
 
+
 .title {
   font-size: 48px;
   font-weight: 500;
@@ -66,6 +80,8 @@ body {
   margin-bottom: 32px;
   max-width: 420px;
 }
+
+
 
 .view-button {
   display: inline-block;
@@ -82,6 +98,10 @@ body {
 .view-button:hover {
   background-color: #eebba6;
   transform: translateY(-1px);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 600px) {
