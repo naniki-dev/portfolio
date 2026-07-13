@@ -1,68 +1,236 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Lethabo Kgasi - Software Developer</title>
-</head>
-<body>
+  </head>
+  <body>
     <section id="home">
-    <!-- navigation bar, add links later on after designing the redirect pages -->
-     <!-- may have to create html pages for the other redirect pages -->
-  <header class="navbar">
-    <nav>
-      <ul>
-        <li><a href="#home" class="active">HOME</a></li>
-        <!-- <li><a href="#projects">MY PROJECTS</a></li> -->
-        <li><a href="#about">ABOUT ME</a></li>
-        <li><a href="#contact">CONTACT ME</a></li>
-      </ul>
-    </nav>
-  </header>
- 
-  <main class="landing">
-    <h1 class="title">Lethabo Naniki Kgasi</h1>
-    <p class="subheading">Software developer working with..</p>
-    <a href="#projects" class="view-button">VIEW MY PROJECTS</a>
-  </main>
-  </section>
+      <!-- navigation bar, add links later on after designing the redirect pages -->
+      <!-- may have to create html pages for the other redirect pages -->
+      <header class="navbar">
+        <nav>
+          <ul>
+            <li><a href="#home" class="active">HOME</a></li>
+            <!-- <li><a href="#projects">MY PROJECTS</a></li> -->
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#contact">CONTACT ME</a></li>
+          </ul>
+        </nav>
+      </header>
 
-  <section id="projects">
-    <h2>MY PROJECTS</h2>
+      <main class="landing">
+        <h1 class="title">Lethabo Naniki Kgasi</h1>
+        <p class="subheading">Software developer working with..</p>
+        <a href="#projects" class="view-button">VIEW MY PROJECTS</a>
+      </main>
+    </section>
 
-  </section>
+    <section id="projects">
+      <h2>MY PROJECTS</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-thumb">
+            <img
+              src="images/project-one.jpg"
+              alt="Screenshot of Project Name One"
+            />
+          </div>
+          <div class="project-card-body">
+            <h3>Project Name One</h3>
+            <p>
+              One or two sentences on the problem this solves and why you built
+              it.
+            </p>
+            <ul class="tech-tags">
+              <li>React</li>
+              <li>Node.js</li>
+              <li>PostgreSQL</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">GitHub</a>
+              <a href="#" target="_blank" rel="noopener">Live</a>
+            </div>
+          </div>
+        </article>
 
-  <section id="about">
-    <h2>ABOUT ME</h2>
-  </section>
+        <article class="project-card">
+          <div class="project-thumb">
+            <img
+              src="images/project-two.jpg"
+              alt="Screenshot of Project Name Two"
+            />
+          </div>
+          <div class="project-card-body">
+            <h3>Project Name Two</h3>
+            <p>
+              What it does, who it's for, and one detail that shows engineering
+              judgement.
+            </p>
+            <ul class="tech-tags">
+              <li>Python</li>
+              <li>Flask</li>
+              <li>Docker</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">GitHub</a>
+              <a href="#" target="_blank" rel="noopener">Live</a>
+            </div>
+          </div>
+        </article>
 
-  <section id="contact">
-  
-    <h2>CONTACT ME</h2>
-  <div class = "contact-inner">
-    <p class="contact-intro">Open to graduate roles and internships. Feel free to reach out.</p>
+        <article class="project-card">
+          <div class="project-thumb">
+            <img
+              src="images/project-three.jpg"
+              alt="Screenshot of Project Name Three"
+            />
+          </div>
+          <div class="project-card-body">
+            <h3>Project Name Three</h3>
+            <p>Same format: what it is, why it matters, what you learned.</p>
+            <ul class="tech-tags">
+              <li>TypeScript</li>
+              <li>Next.js</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener">GitHub</a>
+              <a href="#" target="_blank" rel="noopener">Live</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
 
-    <div class="contact-icons">
-      <a href="mailto:lethabomonyuku@gmail.com" class="contact-icon" aria-label="Email me">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18v12H3z"/><path d="M3 7l9 6 9-6"/></svg>
-      </a>
-      <a href="https://github.com/naniki-dev" target="_blank" rel="noopener" class="contact-icon" aria-label="My GitHub profile">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
-      </a>
-      <a href="https://linkedin.com/in/lethabo-kgasi" target="_blank" rel="noopener" class="contact-icon" aria-label="My LinkedIn profile">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7M7 7v.01M12 17v-4.5a2 2 0 0 1 4 0V17M12 17v-7"/></svg>
-      </a>
-    </div>
-    </div>
+    <section id="about">
+      <h2>ABOUT ME</h2>
+      <div class="about-wrap">
+        <div class="about-photo">
+          <img src="images/DSC_0508.jpeg" alt="Portrait of myself" />
+        </div>
+        <div class="about-text">
+          <p>
+            I am a developer whose background in teaching shapes how I build
+            software. Years spent explaining complex ideas taught me to value
+            clarity, structure, and designing with people in mind.
+          </p>
 
-    <footer class="site-footer">
-      <p>&copy; 2026 Lethabo Kgasi. Built from scratch, no template.</p>
-    </footer>
+          <p>
+            I develop backend logic, from a real-time multiplayer game
+            synchronising state across live clients, to a terminal-based booking
+            system I helped build from the ground up with a small team.
+            I also work comfortably across the front end, using JavaScript,
+            HTML/CSS, and API integration to bring data to life on screen.
+          </p>
 
-  </section>
-    
-  <script src="js/index.js"></script>
-</body>
+          <p>
+            Outside of code, I am probably reading about history, out hiking, or
+            trying something new just to see if I'll like it. I am always up for
+            helping people, and I will never say no to a nap!
+          </p>
+        </div>
+        <div class="about-skills">
+          <span class="skill-label">Languages</span>
+          <ul class="skill-tags">
+            <li>Java</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>C</li>
+          </ul>
 
+          <span class="skill-label">Web & data</span>
+          <ul class="skill-tags">
+            <li>HTML/CSS</li>
+            <li>Bootstrap</li>
+            <li>Flask</li>
+            <li>API integration</li>
+            <li>SQLite3</li>
+          </ul>
+
+          <span class="skill-label">Concepts</span>
+          <ul class="skill-tags">
+            <li>OOP</li>
+            <li>DSA</li>
+            <li>Client-server architecture</li>
+          </ul>
+
+          <span class="skill-label">Tools & practices</span>
+          <ul class="skill-tags">
+            <li>Git</li>
+            <li>Git Bash</li>
+            <li>Agile/Scrum</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>CONTACT ME</h2>
+      <div class="contact-inner">
+        <p class="contact-intro">
+          Open to graduate roles and internships. Feel free to reach out.
+        </p>
+
+        <div class="contact-icons">
+          <a
+            href="mailto:lethabomonyuku@gmail.com"
+            class="contact-icon"
+            aria-label="Email me"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+            >
+              <path d="M3 6h18v12H3z" />
+              <path d="M3 7l9 6 9-6" />
+            </svg>
+          </a>
+          <a
+            href="https://github.com/naniki-dev"
+            target="_blank"
+            rel="noopener"
+            class="contact-icon"
+            aria-label="My GitHub profile"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+            >
+              <path
+                d="M12 2a10 10 0 0 0-3.16 19.5c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://linkedin.com/in/lethabo-kgasi"
+            target="_blank"
+            rel="noopener"
+            class="contact-icon"
+            aria-label="My LinkedIn profile"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+            >
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+              <path d="M7 10v7M7 7v.01M12 17v-4.5a2 2 0 0 1 4 0V17M12 17v-7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        <p>&copy; 2026 Lethabo Kgasi. Built from scratch, no template.</p>
+      </footer>
+    </section>
+
+    <script src="js/index.js"></script>
+  </body>
 </html>
