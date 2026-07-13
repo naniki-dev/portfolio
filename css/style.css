@@ -8,8 +8,18 @@
 body {
   background-color: #ffffff;
   color: #372c2a;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
   min-height: 100vh;
+}
+
+h3 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.about-text p,
+.skill-tags li,
+.skill-label {
+  font-family: 'Work Sans', sans-serif;
 }
 
 #projects,
@@ -32,6 +42,7 @@ section {
   padding: 32px 48px;
   display: flex;
   justify-content: flex-end;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .navbar nav ul {
@@ -70,8 +81,12 @@ section {
 
 .title {
   font-size: 48px;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 16px;
+  font-family: 'Space Grotesk', sans-serif;
+  /* font-weight: 700; */
+  font-size: 44px;
+  /* opacity: 0.7; */
 }
 
 .subheading {
@@ -79,10 +94,12 @@ section {
   color:#b8978c;
   margin-bottom: 32px;
   max-width: 420px;
+  font-family: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .view-button {
   display: inline-block;
+  font-family: 'Space Grotesk', sans-serif;
   background-color: #f3cdbe;
   color: #7a3b22;
   text-decoration: none;
@@ -265,6 +282,7 @@ html {
   text-align: left;
   padding: 0 24px 60px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .about-text {
@@ -296,6 +314,7 @@ html {
   background-color: #fbf3ef;
   border-radius: 12px;
   padding: 16px 18px;
+  font-weight: 500;
 }
  
 .skill-tags {
@@ -331,7 +350,10 @@ html {
 #projects h2,
 #about h2,
 #contact h2 {
-  font-size: 32px;
-  font-weight: 500;
   margin-bottom: 40px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  opacity: 0.7;
 }
+
