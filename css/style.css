@@ -460,8 +460,8 @@ html {
 }
 
 #projects h2::before { content: "$ cd ./projects"; }
-#about h2::before     { content: "$ cat about.me"; }
-#contact h2::before   { content: "$ ping lethabo --connect"; }
+#about h2::before     { content: "$ cd ./about"; }
+#contact h2::before   { content: "$ cd ./contact"; }
 
 .project-thumb::before,
 .project-thumb::after,
