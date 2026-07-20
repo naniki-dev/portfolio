@@ -42,6 +42,7 @@ section {
   display: flex;
   justify-content: flex-end;
   font-family: 'Space Grotesk', sans-serif;
+
 }
 
 .navbar nav ul {
@@ -54,7 +55,7 @@ section {
   position: relative;
   text-decoration: none;
   color: #372c2a;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.01em;
   padding-bottom: 3px;
   transition: color 0.2s ease;
@@ -81,7 +82,7 @@ section {
 
 
 .title {
-  font-size: 48px;
+  font-size: 54px;
   font-weight: 700;
   margin-bottom: 16px;
   font-family: 'Space Grotesk', sans-serif;
@@ -91,7 +92,7 @@ section {
 }
 
 .subheading {
-  font-size: 14px;
+  font-size: 16px;
   color:#b8978c;
   margin-bottom: 32px;
   max-width: 420px;
@@ -200,9 +201,9 @@ html {
     gap: 20px;
   }
 
-  .title {
+  /* .title {
     font-size: 36px;
-  }
+  } */
 }
 
 .project-grid {
@@ -412,7 +413,7 @@ html {
   width: 100%;
 }
 
-#home {
+body {
   position: relative;
   background-image: radial-gradient(#e8ded9 1px, transparent 1px);
   background-size: 26px 26px;
