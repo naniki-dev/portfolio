@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const subheadingEl = document.getElementById('subheading');
 
   const titleTypewriter = new Typewriter(titleEl, {
-    delay: 60,
+    delay: 100,
     cursor: '|',
   });
 
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // start typing the paragraph, cursor lands here
       const subheadingTypewriter = new Typewriter(subheadingEl, {
-        delay: 40,
+        delay: 70,
         cursor: '|',
       });
       subheadingTypewriter.typeString('software developer, building with intent').start();
